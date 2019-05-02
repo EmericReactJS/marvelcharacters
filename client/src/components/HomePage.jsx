@@ -1,6 +1,6 @@
 import React from "react";
 import { Navbar, NavbarBrand } from "reactstrap";
-import MainBar from "./containers/MainBar";
+import MainBar from "../containers/MainBar";
 import List from "../containers/List";
 
 const HomePage = () => {
