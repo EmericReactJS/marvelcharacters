@@ -1,0 +1,77 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit; /* [1] */
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(242, 236, 239);
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+.homepageBrand {
+  background-color: rgb(204, 41, 54);
+  border-radius: 10px 10px 0px 0px;
+  box-shadow: 0px 5px 10px black;
+  border-bottom: 5px solid rgb(8, 65, 92);
+  font-size: 2em;
+}
+
+.navMain Button {
+  width: 8em;
+  font-size: 0.8em;
+  background-color: rgb(8, 65, 92);
+}
+
+.fullList {
+  margin: 5vh 5vw;
+}
+
+.cardClass {
+  margin: 1vh 1vw;
+  box-shadow: 0px 5px 10px black;
+}
+
+.cardClass:hover {
+  transition: all 200ms ease-in-out;
+  transform: scale(1.1, 1.1);
+  box-shadow: 0px 0px 10px transparent;
+  z-index: 2;
+}
+
+.cardImage {
+  object-fit: cover;
+  height: 10em;
+}
+
+.cardClass Button {
+  min-width: 9vw;
+  max-height: 3vh;
+  font-size: 0.8em;
+  background-color: rgb(8, 65, 92);
+  overflow: hidden;
+  box-sizing: content-box;
+}
+
+.imageModal img {
+  max-width: 30em;
+}
+
+li {
+  list-style-type: none;
+}
