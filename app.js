@@ -9,7 +9,7 @@ app.use(express.static(path.join(__dirname, 'client')));
 
 /* GET List */
 app.get('/api', (req, res, next) => {
-  axios.get(`https://developer.marvel.com/v1/public/characters?limit=100&offset=100&ts=${credentials.timeStamp}&apikey=${credentials.apiKey}&hash=${credentials.hashPass}`)
+  axios.get(`https://gateway.marvel.com/v1/public/characters?limit=100&offset=100&ts=${credentials.timeStamp}&apikey=${credentials.apiKey}&hash=${credentials.hashPass}`)
     .then(results => res.send(results.data.data))
 });
 
