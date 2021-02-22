@@ -1,4 +1,18 @@
-# marvelcharacters
-Liste et pagination de super héros React / Redux / Node.
-Redux est implémenté arbitrairement et indépendamment des besoins.
+# Simple list of super heroes with paging.
+
 ![alt text](https://github.com/EmericReactJS/marvelcharacters/raw/master/marvelcharacters.gif)
+
+___
+
+
+Technologies: 
+
+**React**
+
+**Redux**
+
+**Marvel Developer API**
+
+**Heroku**
+
+
